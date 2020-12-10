@@ -2,9 +2,9 @@
 *
 
 # Keep
-!dist/api/games/lists.json
-!dist/resources/*.png
+!api/**/*
+!resources/**/*
 !src/*
 !index.html
-!package-lock.json
-!package.json
+!package*.json
+!.*rc
