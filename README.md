@@ -2,19 +2,18 @@
 
 ## Objective
 
-Translate the provided [design mocks](./design/) into a working solution with HTML, CSS and JavaScript, without any frameworks.  
+Translate the provided [design mocks](./design/) into a working solution with HTML, CSS, Typescript, and React.  
 
 ## Requirements
 
-1. Use HTML5 to produce a semantic information structure.
-1. Use CSS to produce the layout with a mobile first approach  
+1. Use modern HTML to produce a semantic information structure.
+1. Use modern CSS to produce the layout with a mobile first approach  
    _Should support screen resolutions from small screens (320px+) up to big screens (1920px+)_
-1. Use Javascript to fetch JSON-data from the following url: ```/api/games/lists.json```
-1. Use Javascript to generate the elements/components based on the fetched JSON-data.
-1. Use atleast one native Web Component.
-1. Add a search/filter component based upon the JSON-data.
+1. Fetch JSON-data from the following url: ```/api/games/lists.json```
+1. Use React to generate the elements/components based on the fetched JSON-data.
+1. Create a search/filter component based upon the JSON-data.
    - Implement your own design for the search/filter component
-   - Should be a web component
+   - Should be a component
    - Should filter the JSON-data based on user input
    - Should display up to 10 previous searches
    - Should persist search history on reload  
@@ -23,7 +22,7 @@ Translate the provided [design mocks](./design/) into a working solution with HT
 **Author your solution in the following places:**  
 - `index.html`
 - `src/styles.css`
-- `src/scripts.js`
+- `src/scripts.ts`
 
 ## Getting started
 
@@ -54,8 +53,3 @@ This is the web based setup that only requires a modern browser to get you start
 
 1. [Open a new Codesandbox](https://codesandbox.io/s/github/AndreasLindbergPAF/paf-frontend-exercise/tree/master/?fontsize=14&hidenavigation=1&theme=dark).
 1. When done, send us your Codesandbox-link.
-
-## Optional
-- Author your code in TypeScript
-   - Change file extension from `.js` to `.ts` on `src/scripts.js`
-   - Change references from `src/scripts.js` to `src/scripts.ts` in `index.html`
