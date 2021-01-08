@@ -28,7 +28,7 @@ Translate the provided [design mocks](./design/) into a working solution with HT
 
 There are two avaliable development environments
 - [Localhost](#localhost)
-- [Code Sandbox](#codesandbox)
+- [Code Sandbox](#sandbox)
 
 ### Localhost
 
