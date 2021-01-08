@@ -22,7 +22,7 @@ Translate the provided [design mocks](./design/) into a working solution with HT
 **Author your solution in the following places:**  
 - `index.html`
 - `src/styles.css`
-- `src/scripts.ts`
+- `src/scripts.tsx`
 
 ## Getting started
 
