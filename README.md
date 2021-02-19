@@ -2,7 +2,8 @@
 
 ## Objective
 
-Translate the provided [design mocks](./design/) into a working solution with HTML, CSS, Typescript, and React.  
+Translate the provided [design mocks](./design/) into a working solution with HTML, CSS, Typescript, and React.
+Do not add any other frameworks or libraries. 
 
 ## Requirements
 
