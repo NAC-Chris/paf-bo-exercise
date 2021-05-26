@@ -1,6 +1,6 @@
 {
   "title": "Category title",
-  "description": "Category description",
+  "description": "This is a game description providing rudimentary information about these specific games to the user. Additionally, it may also provide the user with information about the category and potential bonuses or jackpots accociated with it.",
   "lists": [
     {
       "id": "popular",
