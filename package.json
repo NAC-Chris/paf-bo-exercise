@@ -1,39 +1,53 @@
 {
   "private": true,
-  "name": "paf-frontend-exercise",
-  "version": "2.0.0",
-  "description": "Paf frontend exercise",
-  "homepage": "https://github.com/AndreasLindbergPAF/paf-frontend-exercise/#readme",
-  "bugs": "https://github.com/AndreasLindbergPAF/paf-frontend-exercise/issues",
-  "author": "Andreas Lindberg <andreas.lindberg@paf.com> (https://aboutpaf.com/)",
+  "name": "paf-back-office-exercise",
+  "version": "1.0.0",
+  "description": "Paf back office exercise",
+  "type": "module",
+  "homepage": "https://github.com/NAC-Chris/paf-frontend-exercise/#readme",
+  "bugs": "https://github.com/NAC-Chris/paf-frontend-exercise/issues",
+  "author": "Christopher Einarsson <christopher.einarsson@paf.com> (https://aboutpaf.com/)",
   "contributors": [
-    "Johan Westling",
     "Andreas Lindberg",
+    "Felix Stridsberg",
     "Olof Schröder"
   ],
   "license": "ISC",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html & node --experimental-json-modules --loader ts-node/esm ./src/backend.ts"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@parcel/config-default": "^2.6.0",
     "@parcel/transformer-typescript-tsc": "^2.6.0",
+    "@types/auth0": "^2.35.3",
+    "@types/cors": "^2.8.12",
+    "@types/express": "4.17.14",
+    "@types/node": "^18.7.18",
     "@types/react": "^18.0.13",
     "@types/react-dom": "^18.0.5",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "events": "^3.3.0",
     "parcel": "^2.6.0",
     "parcel-reporter-multiple-file-copier": "^1.0.7",
+    "path-browserify": "^1.0.1",
     "process": "^0.11.10",
-    "typescript": "^4.7.3"
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "typescript": "^4.7.3",
+    "ts-node": "^10.9.1",
+    "url": "^0.11.0",
+    "util": "^0.12.4"
   },
   "staticFiles": [
-    {
-      "origin": "api",
-      "destination": "api/"
-    },
     {
       "origin": "resources",
       "destination": "resources/"
@@ -46,10 +60,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/AndreasLindbergPAF/paf-frontend-exercise.git"
-  },
-  "homepage": "https://github.com/AndreasLindbergPAF/paf-frontend-exercise",
-  "bugs": {
-    "url": "https://github.com/AndreasLindbergPAF/paf-frontend-exercise/issues"
+    "url": "git://github.com/NAC-Chris/paf-bo-exercise.git"
   }
 }
