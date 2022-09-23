@@ -1,0 +1,22 @@
+{
+  "1": {
+    "id": "popular",
+    "title": "Popular",
+    "last_updated": null
+  },
+  "2": {
+    "id": "new-games",
+    "title": "New Games",
+    "last_updated": "2022-09-21T10:53:51.038Z"
+  },
+  "3": {
+    "id": "paf-exclusive",
+    "title": "Paf Exclusive",
+    "last_updated": "2022-09-21T09:08:55.028Z"
+  },
+  "4": {
+    "id": "recently-played",
+    "title": "Recently Played",
+    "last_updated": "2022-02-14T18:00:00.098Z"
+  }
+}

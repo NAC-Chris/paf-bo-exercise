@@ -1,0 +1,74 @@
+{
+  "4": {
+    "title": "Cash & Carry",
+    "provider": "Paf Studios",
+    "release_date": "2022-08-22T08:43:52Z",
+    "image": "/resources/roundel-cash-carry.png",
+    "launch_url": "cash-and-carry",
+    "launch_base_url": "/games/slots",
+    "in_maintenance": false
+  },
+  "2": {
+    "title": "Casino Island",
+    "provider": "Paf Studios",
+    "release_date": "2022-04-09T17:21:46Z",
+    "image": "/resources/roundel-casino-island.png",
+    "launch_url": "casino-island",
+    "launch_base_url": "/games/slots",
+    "in_maintenance": false
+  },
+  "1": {
+    "title": "Copy Cat",
+    "provider": "NetEnt",
+    "release_date": "2022-02-04T08:06:14Z",
+    "image": "/resources/roundel-copy-cat.png",
+    "launch_url": "copy-cat",
+    "launch_base_url": "/games/slots",
+    "in_maintenance": true
+  },
+  "3": {
+    "title": "Schlager Slotten",
+    "provider": "Paf Studios",
+    "release_date": "2022-09-03T10:35:58Z",
+    "image": "/resources/roundel-schlager-slotten.png",
+    "launch_url": "schlager-slotten",
+    "launch_base_url": "/games/slots",
+    "in_maintenance": false
+  },
+  "7": {
+    "title": "Building Blocks",
+    "provider": "Paf Studios",
+    "release_date": "2022-03-19T07:40:30Z",
+    "image": "/resources/roundel-building-blocks.png",
+    "launch_url": "building-blocks",
+    "launch_base_url": "/games/slots",
+    "in_maintenance": false
+  },
+  "5": {
+    "title": "The One Armed Bandit",
+    "provider": "Yggdrasil",
+    "release_date": "2022-01-08T04:13:23Z",
+    "image": "/resources/roundel-the-one-armed-bandit.png",
+    "launch_url": "the-one-armed-bandit",
+    "launch_base_url": "/games/slots",
+    "in_maintenance": true
+  },
+  "8": {
+    "title": "Megadon",
+    "provider": "Play'n GO",
+    "release_date": "2022-03-27T10:34:55Z",
+    "image": "/resources/roundel-megadon.png",
+    "launch_url": "megadon",
+    "launch_base_url": "/games/slots",
+    "in_maintenance": false
+  },
+  "6": {
+    "title": "Blue Star",
+    "provider": "Paf Studios",
+    "release_date": "2022-07-29T10:11:01Z",
+    "image": "/resources/roundel-blue-star.png",
+    "launch_url": "blue-star",
+    "launch_base_url": "/games/slots",
+    "in_maintenance": false
+  }
+}

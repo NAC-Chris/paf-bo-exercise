@@ -1,0 +1,8 @@
+{
+  "app": "Paf",
+  "brand_colors": ["#25ac61", "#f04149", "#222829", "#343b3c", "#929797"],
+  "title": "Slots",
+  "description": "This is a game description providing rudimentary information about these specific games to the user. Additionally, it may also provide the user with information about the category and potential bonuses or jackpots accociated with it.",
+  "categories": ["Slots", "Casino & Live", "Poker", "Bingo", "Betting"],
+  "image_cdn": "https://cdn.paf-games.com"
+}
