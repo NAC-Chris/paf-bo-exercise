@@ -7,6 +7,7 @@
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "skipLibCheck": true,
     "isolatedModules": true,
+    "esModuleInterop": true,
     "resolveJsonModule": true,
     "jsx": "react-jsx",
     "newLine": "lf",
@@ -27,8 +28,9 @@
     "experimentalDecorators": true,
     "useDefineForClassFields": true
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx"
-  ]
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["src/api/*"]
 }
