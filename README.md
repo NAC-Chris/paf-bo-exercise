@@ -2,67 +2,66 @@
 
 ## Objective
 
-Translate the provided [design mocks](./design/) into a working solution with HTML, CSS, Typescript, and React.
-Do not add any other frameworks or libraries. 
+Transform the provided [JSON data](./src/api/) into a single response and send it to the frontend. Then use that
+response to render a layout using TypeScript and JSX through modern React. The layout should resemble the
+provided [design mocks](./design/), but does not have to be pixel perfect. You can use the provided
+[CSS classes](./src/styles.css) or write your own CSS.
 
 ## Requirements
 
-1. Use modern HTML to produce a semantic information structure.
-1. Use modern CSS to produce the layout with a mobile first approach  
-   _Should support screen resolutions from small screens (320px+) up to big screens (1920px+)_
-1. Fetch JSON-data from the following url: ```/api/games/lists.json```
-1. Use React to generate the elements/components based on the fetched JSON-data.
-1. Create a search/filter component based upon the JSON-data.
-   - Implement your own design for the search/filter component
-   - Should be a component
-   - Should filter the JSON-data based on user input
-   - Should display up to 10 previous searches
-   - Should persist search history on reload  
-     _**Don't** use autocomplete="on"_
+1. Transform the messy data given in the JSON files to a well restructured response for the frontend.
+   - Should adhere to REST standards
+   - Should not send excessive information
+   - Should be structured so it is easy to use in the frontend
+1. Solve incomplete setup steps to get all data to the frontend
+   - Hide that the app is powered by Express
+   - User must be authorized to view the "Recently Played" game list
+1. Send the structured response and **fetch** it in the frontend.
+1. Use JSX through modern React to produce an information structure.
+   - Should resemble the given designs
+   - Should use the data sent from the backend
+1. Provide a short list of things you would do to make the app production ready
 
-**Author your solution in the following places:**  
-- `index.html`
-- `src/styles.css`
-- `src/scripts.tsx`
+## Restrictions
+
+1. No additional packages are to be installed, _package.json_ stays untouched.
+1. The _.json_-files are to be considered as api-responses, they cannot be altered directly.
+
+**Author your solution in the following places:**
+
+- `src/backend.tsx`
+- `src/frontend.tsx`
 
 ## Getting started
 
-There are two avaliable development environments
-- [Localhost](#localhost)
-- [Code Sandbox](#sandbox)
+## Localhost
 
-### Localhost
+This setup provides a development server to be used in your machine.
+Prerequisites are **node.js** _(LTS)_ and **git**
 
-This setup provides a development server to be used in your machine.  
-Prerequisites are **node.js** _(LTS)_ (and **git** if you clone the repo)
 1. Install dependencies:
-    ```bash
-    npm ci
-    ```
+   ```bash
+   npm install
+   ```
 1. Start server:
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 1. When done, package your solution with the following command:
-    ```bash
-    npm pack
-    ```
-1. And then send us your ```paf-frontend-exercise-1.0.0.tgz```.
-
-### Sandbox 
-This is the web based setup that only requires a modern browser to get you started.
-
-1. [Open a new Codesandbox](https://codesandbox.io/s/github/AndreasLindbergPAF/paf-frontend-exercise/tree/master/?fontsize=14&hidenavigation=1&theme=dark).
-1. When done, send us your Codesandbox-link.
+   ```bash
+   npm pack
+   ```
+1. And then send us your `paf-back-office-exercise-1.0.0.tgz`.
 
 ## Evaluation
+
 Your code test will be evaluated against the following criteria:
 
-- Meets the stated requirements.
-- Ability to implement and adapt a given design to a responsive design
-- Creativity shown in implementing a custom search feature
+- Meets the stated requirements
+- Ability to transform and structure the data
 - Simple over clever
 - Understanding of:
+  – REST fundamentals
   - React fundamentals
   - TypeScript
   - Immutability vs. mutability
