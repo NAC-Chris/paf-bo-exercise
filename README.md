@@ -24,8 +24,9 @@ provided [design mocks](./design/), but does not have to be pixel perfect. You c
 
 ## Restrictions
 
-1. No additional packages are to be installed, _package.json_ stays untouched.
+1. No additional packages are to be installed.
 1. The _.json_-files are to be considered as api-responses, they cannot be altered directly.
+   - _backend.ts_, _frontend.ts_, _styles.css_ and _index.html_ can be freely changed.
 
 **Author your solution in the following places:**
 
