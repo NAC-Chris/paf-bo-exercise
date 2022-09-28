@@ -12,4 +12,6 @@ app.post("/api/games");
 
 app.post("/api/protected");
 
-app.listen(PORT, () => console.log(`App is running on port ${PORT}`));
+app.listen(PORT, () => {
+  console.log(`⚡️[server]: Server is running at https://localhost:${PORT}`);
+});

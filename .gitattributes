@@ -24,7 +24,7 @@ CODEOWNERS        text
 
 # Config
 .gitattributes    text
-.*ignore        text
-package-lock.json text -diff
+.*ignore          text
+*-lock.json       text -diff
 *.lock            text -diff
-.*rc            text
+.*rc              text
