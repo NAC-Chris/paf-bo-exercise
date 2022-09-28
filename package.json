@@ -15,7 +15,9 @@
   ],
   "license": "ISC",
   "scripts": {
-    "start": "node --experimental-json-modules --loader ts-node/esm ./src/backend.ts & parcel index.html"
+    "start": "concurrently 'npm:start:*'",
+    "start:backend": "nodemon ./src/backend.ts",
+    "start:frontend": "parcel index.html"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -33,6 +35,8 @@
     "@types/node": "^16",
     "@types/react": "^18.0.13",
     "@types/react-dom": "^18.0.5",
+    "concurrently": "^7.4.0",
+    "nodemon": "^2.0.20",
     "parcel": "^2.6.0",
     "parcel-reporter-multiple-file-copier": "^1.0.7",
     "process": "^0.11.10",
