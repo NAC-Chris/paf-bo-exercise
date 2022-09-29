@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/nodemon.json",
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    ".parcel-cache",
+    "node_modules/**/node_modules",
+    "dist/**/*"
+  ],
+  "execMap": {
+    "ts": "node --experimental-json-modules --loader ts-node/esm"
+  },
+  "ext": "ts,js,json"
+}

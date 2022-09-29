@@ -1,8 +1,8 @@
 import express from "express";
-import appData from "./api/app.json";
-import categories from "./api/categories.json";
-import gameLists from "./api/game-lists.json";
-import games from "./api/games.json";
+import appData from "./api/app.json" assert { type: "json" };
+import categories from "./api/categories.json" assert { type: "json" };
+import gameLists from "./api/game-lists.json" assert { type: "json" };
+import games from "./api/games.json" assert { type: "json" };
 
 const PORT = 8082;
 

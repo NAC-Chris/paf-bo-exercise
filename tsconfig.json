@@ -1,4 +1,5 @@
 {
+  "extends": "ts-node/node16/tsconfig.json",
   "compilerOptions": {
     "pretty": true,
     "target": "ESNext",
@@ -26,11 +27,12 @@
 
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "useDefineForClassFields": true
+    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": true
   },
   "ts-node": {
-    "esm": true,
-    "transpileOnly": true
+    "transpileOnly": true,
+    "transpiler": "ts-node/transpilers/swc-experimental"
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["src/api/*"]
