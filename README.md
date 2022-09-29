@@ -26,23 +26,21 @@ provided [design mocks](./design/), but does not have to be pixel perfect. You c
 
 1. No additional packages are to be installed.
 1. The _.json_-files are to be considered as api-responses, they cannot be altered directly.
-   - _backend.ts_, _frontend.ts_, _styles.css_ and _index.html_ can be freely changed.
+   - _backend.ts_, _frontend.tsx_, _styles.css_ and _index.html_ can be freely changed.
 
 **Author your solution in the following places:**
 
-- `src/backend.tsx`
+- `src/backend.ts`
 - `src/frontend.tsx`
 
 ## Getting started
 
-## Localhost
-
 This setup provides a development server to be used in your machine.
-Prerequisites are **node.js** _(LTS)_ and **git**
+Prerequisites are **node.js** _(LTS)_
 
 1. Install dependencies:
    ```bash
-   npm install
+   npm ci
    ```
 1. Start server:
    ```bash
