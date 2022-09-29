@@ -52,7 +52,7 @@
   ],
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "engines": {
-    "node": ">16",
+    "node": ">16.17",
     "npm": ">8",
     "yarn": ">3"
   },
